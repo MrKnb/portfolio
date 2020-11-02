@@ -204,7 +204,7 @@ function App() {
                   </ProjectStack>
                   <ProjectDescription>{project.description}</ProjectDescription>
                   <ProjectLinks>
-                    <a href={project.demo}>Demo</a>
+                    <a href={project.demo}>Live</a>
                     <a href={project.code}>Code</a>
                   </ProjectLinks>
                 </ProjectDetails>
