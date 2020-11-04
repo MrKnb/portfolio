@@ -1,4 +1,5 @@
 import BacklinerPNG from 'assets/Backliner.png';
+import PortfolioPNG from 'assets/Portfolio.png';
 import TrumpPNG from 'assets/TrumpGraffitiMemes.png';
 import ToDoPNG from 'assets/ToDos.png';
 import CookingPNG from 'assets/CookingHeroes.png';
@@ -23,6 +24,18 @@ const projects = [
     ],
     demo: 'https://www.backliner.app',
     code: 'https://github.com/Ey-Jay/backliner',
+  },
+  {
+    title: 'UX & UI Portfolio Website',
+    image: PortfolioPNG,
+    description:
+      'Portfolio website to showcase various UX & UI Projects.',
+    stack: [
+      'React',
+      'Styled Components',
+    ],
+    demo: 'https://www.jkaether.com/',
+    code: 'https://github.com/MrKnb/portfolio_jkaether',
   },
   {
     title: 'Trump Graffiti Memes',

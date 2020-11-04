@@ -114,6 +114,10 @@ export const TechStack = styled.div`
 
 export const Technologies = styled.div`
   display: flex;
+
+  @media (max-width: ${({theme}) => theme.breakpointMobile}) {
+  padding-right: 4%;
+}
 `;
 
 export const FrontendWrapper = styled.div`
@@ -138,6 +142,10 @@ flex-wrap: wrap;
 @media (max-width: ${({theme}) => theme.breakpointMobile}) {
   width: 100%;
 }
+
+@media (max-width: 800px) {
+  width: 100%;
+}
 `;
 
 export const BackendWrapper = styled.div`
@@ -160,6 +168,10 @@ justify-content: space-between;
 flex-wrap: wrap;
 
 @media (max-width: ${({theme}) => theme.breakpointMobile}) {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
   width: 100%;
 }
 `;
@@ -295,6 +307,8 @@ export const ProjectLinks = styled.div`
     background: ${({theme}) => theme.colorButtons};
     color: ${({theme}) => theme.colorLight};
 
-    :hover {}
+    :hover {
+      opacity: 0.8;
+    }
   }
 `;
