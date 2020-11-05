@@ -22,7 +22,7 @@ const projects = [
       'Firebase Auth',
       'Google API',
     ],
-    demo: 'https://www.backliner.app',
+    live: 'https://www.backliner.app',
     code: 'https://github.com/Ey-Jay/backliner',
   },
   {
@@ -34,7 +34,7 @@ const projects = [
       'React',
       'Styled Components',
     ],
-    demo: 'https://www.jkaether.com/',
+    live: 'https://www.jkaether.com/',
     code: 'https://github.com/MrKnb/portfolio_jkaether',
   },
   {
@@ -42,15 +42,15 @@ const projects = [
     image: TrumpPNG,
     description: 'The hottest Trump meme generator on the internet.',
     stack: ['React', 'CSS', 'JavaScript'],
-    demo: 'https://www.trumpgraffitimemes.com/',
-    code: 'https://github.com/rb-wbscoding/meme',
+    live: 'https://www.trumpgraffitimemes.com/',
+    code: 'https://github.com/MrKnb/generator',
   },
   {
     title: 'To-do App',
     image: ToDoPNG,
     description: 'To-do app built using React mainly focused on the mobile view. Color customization possible.',
     stack: ['React'],
-    demo: 'https://done-it.netlify.app/',
+    live: 'https://done-it.netlify.app/',
     code: 'https://github.com/Usamoto/react-todo-app',
   },
   {
@@ -58,15 +58,15 @@ const projects = [
     image: CookingPNG,
     description: 'Search great recipes for breakfast, lunch and dinner.',
     stack: ['JavaScript', 'CSS'],
-    demo: 'https://justinhorn.name/group-one-cookbook/',
+    live: 'https://justinhorn.name/group-one-cookbook/',
     code: 'https://github.com/JustinHorn/group-one-cookbook',
   },
   {
     title: 'Recalc',
     image: RecalcPNG,
-    description: 'Calculator inspired by the Apple Calculator built in React.',
+    description: 'Calculator inspired by the Apple calculator built in React.',
     stack: ['React'],
-    demo: 'https://reacalc.netlify.app/',
+    live: 'https://reacalc.netlify.app/',
     code: 'https://github.com/Ey-Jay/recalc',
   }
 ];
