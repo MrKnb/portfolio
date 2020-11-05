@@ -6,7 +6,6 @@ export const Header = styled.header`
   height: 150px;
   display: flex;
   flex: 1;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
 
@@ -14,29 +13,6 @@ export const Header = styled.header`
   flex-direction: column;
 }
 `;
-
-// export const MidWrapper = styled.div`
-// display: flex;
-// flex-direction: column;
-// justify-content: space-between;
-// align-items: center;
-// `;
-
-// export const Name = styled.h3`
-// margin-bottom: 3px;
-// `;
-
-// export const Separator = styled.div`
-//   margin-bottom: 5px;
-//   height: 3px;
-//   width: 200px;
-//   border-radius: 1.5px;
-//   background: ${({ theme }) => theme.colorLight};
-// `;
-
-// export const Description = styled.h3`
-// margin-top: 3px;
-// `;
 
 export const LogoWrapper = styled.div`
 margin-left: 2%;
@@ -49,10 +25,6 @@ margin-left: 2%;
 export const Contact = styled.div`
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
-    /* max-width: 550px; */
-    /* margin: 0 auto; */
-    /* padding-left: 10px; */
 
     a {
       flex: 1;
@@ -116,7 +88,7 @@ export const Technologies = styled.div`
   display: flex;
 
   @media (max-width: ${({theme}) => theme.breakpointMobile}) {
-  padding-right: 4%;
+  padding-right: 2%;
 }
 `;
 
